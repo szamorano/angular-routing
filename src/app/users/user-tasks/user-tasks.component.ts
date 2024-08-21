@@ -12,11 +12,28 @@ import { ActivatedRoute, ActivatedRouteSnapshot, ResolveFn, RouterLink, RouterOu
 export class UserTasksComponent {
   // userId = input.required<string>();
   userName = input.required<string>();
+
+
+  //private activatedRoute = inject(ActivatedRoute);
+
+
   // private usersService = inject(UsersService);
   // private activatedRoute = inject(ActivatedRoute);
   // private destroyRef = inject(DestroyRef);
 
   // userName = computed(() => this.usersService.users.find(u => u.id === this.userId())?.name);
+
+
+  // ngOnInit()
+  // {
+  //   this.activatedRoute.data.subscribe({
+  //     next: data => {
+  //       console.log(data);
+  //     }
+  //   })
+  // }
+
+
 
   // ngOnInit()
   // {
